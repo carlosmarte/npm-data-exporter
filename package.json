@@ -1,0 +1,37 @@
+{
+  "name": "@thinkeloquent/data-exporter",
+  "version": "1.0.0",
+  "description": "A clear and simple tool for exporting data to various formats like JSON and CSV.",
+  "main": "main.mjs",
+  "type": "module",
+  "bin": {
+    "progress-demo": "./main.mjs"
+  },
+  "scripts": {
+    "start": "node main.mjs",
+    "demo": "node main.mjs",
+    "test": "node --test",
+    "lint": "echo 'Add ESLint configuration'",
+    "dev": "node --watch main.mjs",
+    "npmPublish": "npm publish --access public"
+  },
+  "keywords": [
+    "cli",
+    "progress",
+    "terminal",
+    "nodejs",
+    "strategy-pattern",
+    "architecture"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  }
+}
